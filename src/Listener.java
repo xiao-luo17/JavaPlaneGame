@@ -11,6 +11,8 @@ public class Listener {
             public void mouseClicked(MouseEvent e) {
                 //游戏结束时候，点击屏幕时重新开始游戏
                 if (gameLogic.gameover) {
+                    //boss机重置
+                    gameLogic.boss = null;
                     //重新初始化主机
                     gameLogic.myPlane = new MyPlane();
                     //重置游戏开关
