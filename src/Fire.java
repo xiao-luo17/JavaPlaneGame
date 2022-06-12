@@ -19,30 +19,30 @@ public class Fire extends FlyObject{
 
         if(dir==0){
             x -= 1;
-            y += 10;
+            y += 2;
         }
         else if(dir == 1){
             x += 1;
-            y += 10;
+            y += 2;
         }
         else if(dir == 2){
             x -= 2;
-            y += 10;
+            y += 2;
         }
         else if(dir == 3){
             x += 2;
-            y += 10;
+            y += 2;
         }
         else if(dir == 4) {
             x -= 3;
-            y += 10;
+            y += 2;
         }
         else if(dir == 5){
             x += 3;
-            y += 10;
+            y += 2;
         }
         else if(dir == 6) {
-            y += 10;
+            y += 2;
         }
     }
 
