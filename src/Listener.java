@@ -13,7 +13,7 @@ public class Listener {
                 if (gameLogic.gameover) {
                     //boss机重置
                     gameLogic.boss = null;
-                    //重新初始化主机
+                    //初始化主机
                     gameLogic.myPlane = new MyPlane();
                     //重置游戏开关
                     gameLogic.gameover = false;
